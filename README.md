@@ -19,12 +19,12 @@ Haven Note 是一款本地优先的笔记应用。你可以直接编辑 `.hd` �
 
 | 平台 | 版本 | 下载安装包 |
 | --- | --- | --- |
-| macOS · Apple Silicon（M 系列芯片） | 0.1.1-alpha.1 | [arm64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-arm64.dmg) |
-| macOS · Intel | 0.1.1-alpha.1 | [x64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-x64.dmg) |
+| macOS · Apple Silicon（M 系列芯片） | 0.1.1-alpha.1 · 2026-10-08 重打包 | [arm64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-arm64-r2.dmg) |
+| macOS · Intel | 0.1.1-alpha.1 · 2026-10-08 重打包 | [x64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-x64-r2.dmg) |
 | Windows · x64 | 0.1.1-RC1 | [Windows 安装程序 EXE](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-RC1-local-windows/Haven-Note-Local-0.1.1-RC1-Windows-x64-setup.exe) |
 | Android · 6.0 及以上 | 0.1.1-alpha.1（调试签名） | [Android APK](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-Android-debug.apk) |
 
-`alpha.1` 是早期测试版本号，不表示比此前的 `0.1.1-RC1` 更成熟。此前的 [macOS RC1 安装包](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-macos) 和 [Android 0.1.0 调试包](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.0-local-android-debug) 仍可下载。
+`alpha.1` 是早期测试版本号，不表示比此前的 `0.1.1-RC1` 更成熟。2026 年 10 月 8 日重打包的 macOS 版本加入离线 Mermaid、PlantUML 和表格预览资源；请下载上表中带 `r2` 的安装包。此前的 [macOS RC1 安装包](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-macos) 和 [Android 0.1.0 调试包](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.0-local-android-debug) 仍可下载。
 
 **iOS：**本地只有未签名的归档，不能直接安装到 iPhone 或 iPad，目前没有可下载的纯本地版安装包。
 
