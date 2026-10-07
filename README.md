@@ -15,18 +15,20 @@ Haven Note 是一款本地优先的笔记应用。你可以直接编辑 `.hd` �
 
 ## 下载
 
-**当前版本：[Haven Note 纯本地版 0.1.1-RC1（macOS 候选版）](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-macos)**
+以下安装包均为**不含账号登录模块的纯本地预发布版**，没有云同步。请按设备选择：
 
-此版本**不包含账号登录模块**，仅提供本地使用。请按 Mac 的处理器选择安装包：
+| 平台 | 版本 | 下载安装包 |
+| --- | --- | --- |
+| macOS · Apple Silicon（M 系列芯片） | 0.1.1-RC1 | [arm64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-RC1-local-macos/Haven-Note-Local-0.1.1-RC1-macOS-arm64.dmg) |
+| macOS · Intel | 0.1.1-RC1 | [x64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-RC1-local-macos/Haven-Note-Local-0.1.1-RC1-macOS-x64.dmg) |
+| Windows · x64 | 0.1.1-RC1 | [Windows 安装程序 EXE](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-RC1-local-windows/Haven-Note-Local-0.1.1-RC1-Windows-x64-setup.exe) |
+| Android · 6.0 及以上 | 0.1.0（调试签名） | [Android APK](https://github.com/GlazeChou/haven-note/releases/download/v0.1.0-local-android-debug/Haven-Note-Local-0.1.0-Android-debug.apk) |
 
-| 平台 | 下载 |
-| --- | --- |
-| macOS · Apple Silicon（M 系列芯片） | [下载 arm64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-RC1-local-macos/Haven-Note-Local-0.1.1-RC1-macOS-arm64.dmg) |
-| macOS · Intel | [下载 x64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-RC1-local-macos/Haven-Note-Local-0.1.1-RC1-macOS-x64.dmg) |
+**iOS：**目前没有可供 iPhone 或 iPad 安装的纯本地版安装包。
 
-Release 页面中的 Source code（zip / tar.gz）由 GitHub 自动生成，是仓库快照，不是安装包。
+macOS 包未经 Apple Developer ID 签名和公证，首次打开可能受到系统阻止；Android 包使用调试签名，仅供测试，若已安装其他签名的同包名应用，可能需要先备份数据再处理安装冲突。安装前请阅读对应的 [macOS](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-macos)、[Windows](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-windows) 或 [Android](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.0-local-android-debug) 发布说明，并为重要数据保留备份。
 
-这是未经 Apple Developer ID 签名和公证的预发布候选版，macOS 可能阻止首次打开。安装前请阅读 [Release 说明](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-macos)，并为重要数据保留备份。Windows、Android 和 iOS 安装包尚未发布；后续版本请查看 [全部 Releases](https://github.com/GlazeChou/haven-note/releases)。
+Release 页面中的 Source code（zip / tar.gz）由 GitHub 自动生成，是仓库源码快照，不是安装包。后续版本请查看 [全部 Releases](https://github.com/GlazeChou/haven-note/releases)。
 
 ## 反馈与建议
 
