@@ -15,20 +15,20 @@ Haven Note 是一款本地优先的笔记应用。你可以直接编辑 `.hd` �
 
 ## 下载
 
-以下安装包均为**不含账号登录模块的纯本地预发布版**，没有云同步。macOS 和 Android 提供 2026 年 10 月 8 日最新归档的 `0.1.1-alpha.1` 测试包；Windows 仍为 `0.1.1-RC1`。
+以下安装包均为**不含账号登录模块的纯本地预发布版**，没有云同步。macOS、Windows 和 Android 提供 `0.1.1-alpha.1` 测试包。
 
 | 平台 | 版本 | 下载安装包 |
 | --- | --- | --- |
 | macOS · Apple Silicon（M 系列芯片） | 0.1.1-alpha.1 · 2026-10-08 重打包 | [arm64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-arm64-r2.dmg) |
 | macOS · Intel | 0.1.1-alpha.1 · 2026-10-08 重打包 | [x64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-x64-r2.dmg) |
-| Windows · x64 | 0.1.1-RC1 | [Windows 安装程序 EXE](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-RC1-local-windows/Haven-Note-Local-0.1.1-RC1-Windows-x64-setup.exe) |
+| Windows · x64 | 0.1.1-alpha.1 | [Windows 安装程序 EXE](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-Windows-x64-setup.exe) |
 | Android · 6.0 及以上 | 0.1.1-alpha.1（调试签名） | [Android APK](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-Android-debug.apk) |
 
-`alpha.1` 是早期测试版本号，不表示比此前的 `0.1.1-RC1` 更成熟。2026 年 10 月 8 日重打包的 macOS 版本加入离线 Mermaid、PlantUML 和表格预览资源；请下载上表中带 `r2` 的安装包。此前的 [macOS RC1 安装包](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-macos) 和 [Android 0.1.0 调试包](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.0-local-android-debug) 仍可下载。
+`alpha.1` 是早期测试版本号，不表示比此前的 `0.1.1-RC1` 更成熟。2026 年 10 月 8 日重打包的 macOS 版本加入离线 Mermaid、PlantUML 和表格预览资源；请下载上表中带 `r2` 的安装包。此前的 [macOS RC1 安装包](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-macos)、[Windows RC1 安装包](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-windows) 和 [Android 0.1.0 调试包](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.0-local-android-debug) 仍可下载。
 
 **iOS：**本地只有未签名的归档，不能直接安装到 iPhone 或 iPad，目前没有可下载的纯本地版安装包。
 
-macOS 首次打开可能受到系统阻止；Android 包使用调试签名，仅供测试，若已安装其他签名的同包名应用，可能需要先备份数据再处理安装冲突。安装前请阅读对应的 [0.1.1-alpha.1 发布说明](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local) 或 [Windows RC1 发布说明](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-windows)，并为重要数据保留备份。
+macOS 首次打开可能受到系统阻止；Android 包使用调试签名，仅供测试，若已安装其他签名的同包名应用，可能需要先备份数据再处理安装冲突。安装前请阅读 [0.1.1-alpha.1 发布说明](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local)，并为重要数据保留备份。
 
 Release 页面中的 Source code（zip / tar.gz）由 GitHub 自动生成，是仓库源码快照，不是安装包。后续版本请查看 [全部 Releases](https://github.com/GlazeChou/haven-note/releases)。
 
