@@ -15,16 +15,18 @@ Haven Note 是一款本地优先的笔记应用。你可以直接编辑 `.hd` �
 
 ## 下载
 
-**当前版本：[Haven Note 纯本地版 0.1.1-12（macOS 测试版）](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-12-local-macos-preview)**
+**当前版本：[Haven Note 纯本地版 0.1.1-RC1（macOS 候选版）](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-macos)**
 
 此版本**不包含账号登录模块**，仅提供本地使用。请按 Mac 的处理器选择安装包：
 
 | 平台 | 下载 |
 | --- | --- |
-| macOS · Apple Silicon（M 系列芯片） | [下载 arm64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-12-local-macos-preview/Haven-Note-Local-0.1.1-12-macOS-arm64.dmg) |
-| macOS · Intel | [下载 x64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-12-local-macos-preview/Haven-Note-Local-0.1.1-12-macOS-x64.dmg) |
+| macOS · Apple Silicon（M 系列芯片） | [下载 arm64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-RC1-local-macos/Haven-Note-Local-0.1.1-RC1-macOS-arm64.dmg) |
+| macOS · Intel | [下载 x64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-RC1-local-macos/Haven-Note-Local-0.1.1-RC1-macOS-x64.dmg) |
 
-这是未经 Apple Developer ID 签名和公证的预发布测试包，macOS 可能阻止首次打开。安装前请阅读 [Release 说明](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-12-local-macos-preview)，并为重要数据保留备份。Windows、Android 和 iOS 安装包尚未发布；后续版本请查看 [全部 Releases](https://github.com/GlazeChou/haven-note/releases)。
+Release 页面中的 Source code（zip / tar.gz）由 GitHub 自动生成，是仓库快照，不是安装包。
+
+这是未经 Apple Developer ID 签名和公证的预发布候选版，macOS 可能阻止首次打开。安装前请阅读 [Release 说明](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-RC1-local-macos)，并为重要数据保留备份。Windows、Android 和 iOS 安装包尚未发布；后续版本请查看 [全部 Releases](https://github.com/GlazeChou/haven-note/releases)。
 
 ## 反馈与建议
 
