@@ -15,26 +15,26 @@ Haven Note 是一款本地优先的笔记应用。你可以直接编辑 `.hd` �
 
 ## 下载
 
-macOS 与 Windows 安装包是**不含账号登录模块的纯本地预发布版**。Android 安装包是带登录界面的“灵栖”预览构建，内部版本为 `0.1.0`，与桌面版不是同一构建。
+目前提供**不含账号登录模块的纯本地预发布版**桌面安装包。Android 安装包正在重新准备，稍后补充。
 
 | 平台 | 版本 | 下载安装包 |
 | --- | --- | --- |
-| macOS · Apple Silicon（M 系列芯片） | 0.1.1-alpha.1 · 2026-10-08 重打包 | [arm64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-arm64-r3.dmg) |
-| macOS · Intel | 0.1.1-alpha.1 · 2026-10-08 重打包 | [x64 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-x64-r3.dmg) |
-| Windows · x64 | 0.1.1-alpha.1 | [Windows 安装程序 EXE](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-Windows-x64-setup.exe) |
-| Android · 6.0 及以上 | 灵栖 0.1.0（调试签名） | [Android APK](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Lingqi-Android-0.1.0-debug.apk) |
+| macOS · Apple Silicon（M 系列芯片） | 0.1.1-alpha.1 · 2026-10-08 重打包 | [arm64 DMG](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-arm64-r3.dmg) |
+| macOS · Intel | 0.1.1-alpha.1 · 2026-10-08 重打包 | [x64 DMG](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-macOS-x64-r3.dmg) |
+| Windows · x64 | 0.1.1-alpha.1 | [Windows 安装程序 EXE](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-Windows-x64-setup.exe) |
+| Android | 待上传 | 安装包正在重新准备 |
 
-`alpha.1` 是早期测试版本号。2026 年 10 月 8 日重打包的 macOS 版本加入离线 Mermaid、PlantUML 和表格预览资源，并更新 Finder 安装窗口。Android APK 保持原文件内容，仅为下载改名；它的版本码是 `1`，低于此前发布的 Android 测试包版本码 `2`，不能直接覆盖安装。处理旧版前请先备份数据。
+`alpha.1` 是早期测试版本号。2026 年 10 月 8 日重打包的 macOS 版本加入离线 Mermaid、PlantUML 和表格预览资源，并更新 Finder 安装窗口。处理旧版前请先备份数据。
 
 **iOS：**本地只有未签名的归档，不能直接安装到 iPhone 或 iPad，目前没有可下载的纯本地版安装包。
 
-macOS 首次打开可能受到系统阻止；Android 包使用调试签名，仅供测试。安装前请阅读 [发布说明](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local)，并为重要数据保留备份。
+macOS 首次打开可能受到系统阻止。安装前请阅读 [发布说明](https://gitee.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local)，并为重要数据保留备份。
 
-Release 页面中的 Source code（zip / tar.gz）由 GitHub 自动生成，是仓库源码快照，不是安装包。后续版本请查看 [全部 Releases](https://github.com/GlazeChou/haven-note/releases)。
+Release 页面中的源码压缩包由 Gitee 自动生成，是仓库源码快照，不是安装包。后续版本请查看 [全部发行版](https://gitee.com/GlazeChou/haven-note/releases)。
 
 ## 反馈与建议
 
-欢迎通过 [GitHub Issues](https://github.com/GlazeChou/haven-note/issues/new/choose) 报告问题或提出建议。提交前请先[搜索已有反馈](https://github.com/GlazeChou/haven-note/issues)，避免重复；选择对应模板，写明使用的平台、应用版本、重现步骤和预期结果。截图或日志可以帮助定位问题。
+欢迎通过 [Gitee Issues](https://gitee.com/GlazeChou/haven-note/issues) 报告问题或提出建议。提交前请先搜索已有反馈，避免重复；写明使用的平台、应用版本、重现步骤和预期结果。截图或日志可以帮助定位问题。
 
 **请勿在公开 Issue 中提交密码、密钥、个人笔记、账单、数据库或其他敏感信息。**
 
