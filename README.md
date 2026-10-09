@@ -15,20 +15,20 @@ Haven Note 是一款本地优先的笔记应用。你可以直接编辑 `.hd` �
 
 ## 下载
 
-目前提供**不含账号登录模块的纯本地预发布版**安装包。macOS 和 Android 的最新版本为 **0.1.1-alpha.2**；Windows 暂时提供上一版 **0.1.1-alpha.1**。
+目前提供**不含账号登录模块的纯本地预发布版**安装包。四个平台的最新安装包均为 **0.1.1-alpha.2**；[alpha.1](https://gitee.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local) 仍保留供查看。
 
 | 平台 | 版本 | 下载安装包 |
 | --- | --- | --- |
-| macOS · Apple Silicon（M 系列芯片） | 0.1.1-alpha.2 | [arm64 DMG（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-macOS-arm64.dmg) |
-| macOS · Intel | 0.1.1-alpha.2 | [x64 DMG（GitHub）](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-macOS-x64.dmg) |
-| Windows · x64 | 0.1.1-alpha.1（上一版） | [Windows 安装程序 EXE（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.1-local/Haven-Note-Local-0.1.1-alpha.1-Windows-x64-setup.exe) |
-| Android · 6.0 及以上 | 0.1.1-alpha.2 | [通用调试版 APK（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-Android-universal-debug.apk) |
+| macOS · Apple Silicon（M 系列芯片） | 0.1.1-alpha.2 | [arm64 DMG（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-macOS-arm64-r2.dmg) |
+| macOS · Intel | 0.1.1-alpha.2 | [x64 DMG（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-macOS-x64-r2.dmg) |
+| Windows · x64 | 0.1.1-alpha.2 | [Windows 安装程序 EXE（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-Windows-x64-setup.exe) |
+| Android · 6.0 及以上 | 0.1.1-alpha.2 | [通用调试版 APK（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-Android-universal-debug-r2.apk) |
 
-macOS Intel 安装包为 101.1 MB，超过 Gitee 当前单附件 100 MB 的限制，因此从 GitHub 下载。macOS 安装包使用本地临时签名且未经 Apple 公证；Android APK 使用开发调试签名。处理旧版前请先备份数据。
+macOS 安装包使用本地临时签名且未经 Apple 公证；Android APK 使用开发调试签名。Windows 安装包的构建源码版本尚未独立核实。处理旧版前请先备份数据。
 
 **iOS：**本地只有未签名的归档，不能直接安装到 iPhone 或 iPad，目前没有可下载的纯本地版安装包。
 
-macOS 首次打开可能受到系统阻止。安装前请阅读 [alpha.2 发布说明](https://gitee.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.2-local)，并为重要数据保留备份。Windows 用户可查看 [alpha.1 发布说明](https://gitee.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local)。
+macOS 首次打开可能受到系统阻止。安装前请阅读 [alpha.2 发布说明](https://gitee.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.2-local)，并为重要数据保留备份。
 
 Release 页面中的源码压缩包由 Gitee 自动生成，是仓库源码快照，不是安装包。后续版本请查看 [全部发行版](https://gitee.com/GlazeChou/haven-note/releases)。
 
