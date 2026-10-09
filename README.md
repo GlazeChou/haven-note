@@ -22,7 +22,7 @@ Haven Note 是一款本地优先的笔记应用。你可以直接编辑 `.hd` �
 | macOS · Apple Silicon（M 系列芯片） | 0.1.1-alpha.2 | [arm64 DMG（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-macOS-arm64-r2.dmg) |
 | macOS · Intel | 0.1.1-alpha.2 | [x64 DMG（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-macOS-x64-r2.dmg) |
 | Windows · x64 | 0.1.1-alpha.2 | [Windows 安装程序 EXE（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-Windows-x64-setup.exe) |
-| Android · 6.0 及以上 | 0.1.1-alpha.2 | [通用调试版 APK（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-Android-universal-debug-r2.apk) |
+| Android · 6.0 及以上 | 0.1.1-alpha.2 | [Android APK（Gitee）](https://gitee.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.2-local/Haven-Note-Local-0.1.1-alpha.2-Android.apk) |
 
 macOS 安装包使用本地临时签名且未经 Apple 公证；Android APK 使用开发调试签名。Windows 安装包的构建源码版本尚未独立核实。处理旧版前请先备份数据。
 
