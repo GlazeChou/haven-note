@@ -38,6 +38,14 @@ Release 页面中的源码压缩包由 Gitee 自动生成，是仓库源码快�
 
 **请勿在公开 Issue 中提交密码、密钥、个人笔记、账单、数据库或其他敏感信息。**
 
+## 加入交流群
+
+点击二维码可查看大图，使用 QQ 或微信扫码加入“灵栖笔记交流群”。
+
+| QQ 群 | 微信群 |
+| --- | --- |
+| 群号：**179664248**<br><a href="assets/community/qq-group-179664248-qr.png"><img src="assets/community/qq-group-179664248-qr.png" alt="QQ 群二维码" width="260"></a> | 二维码有效期至 **2026 年 10 月 16 日**，过期后需更新。<br><a href="assets/community/wechat-group-valid-until-2026-10-16-qr.png"><img src="assets/community/wechat-group-valid-until-2026-10-16-qr.png" alt="微信群二维码" width="260"></a> |
+
 ## 数据说明
 
 Haven Note 以本地优先方式工作：直接打开的 `.hd` 和 Markdown 文件保存在原位置。当前没有云同步或主密码找回功能。测试阶段请为重要数据自行保留备份，尤其不要把密码本作为唯一副本。
