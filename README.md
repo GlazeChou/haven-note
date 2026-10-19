@@ -2,6 +2,8 @@
 
 **让每一个想法，都有安放之处。**
 
+[官方网站](https://note.liuli88.com/)
+
 Haven Note 是一款本地优先的笔记应用。你可以直接编辑 `.hd` 和 Markdown 文件，也可以在同一个工作空间里管理便签、知识库与日常任务。
 
 ## 可以用它做什么
@@ -37,11 +39,11 @@ iOS 的 alpha.6 尚未公开发布。Linux x64 安装包也尚未发布；Linux 
 
 ## 加入交流群
 
-点击二维码可查看大图，使用 QQ 或微信扫码加入“灵栖笔记交流群”。
+点击二维码可查看大图。QQ 扫码加入“灵栖笔记交流群”；微信扫码添加好友时，请备注 **灵栖笔记**。
 
-| QQ 群 | 微信群 |
+| QQ 群 | 微信好友 |
 | --- | --- |
-| 群号：**179664248**<br><a href="assets/community/qq-group-179664248-qr.png"><img src="assets/community/qq-group-179664248-qr.png" alt="QQ 群二维码" width="260"></a> | 二维码有效期至 **2026 年 10 月 16 日**，过期后需更新。<br><a href="assets/community/wechat-group-valid-until-2026-10-16-qr.png"><img src="assets/community/wechat-group-valid-until-2026-10-16-qr.png" alt="微信群二维码" width="260"></a> |
+| 群号：**179664248**<br><a href="assets/community/qq-group-179664248-qr.png"><img src="assets/community/qq-group-179664248-qr.png" alt="QQ 群二维码" width="260"></a> | 添加微信好友请备注 **灵栖笔记**。<br><a href="assets/community/wechat-haven-note-friend-qr.png"><img src="assets/community/wechat-haven-note-friend-qr.png" alt="添加微信好友二维码" width="260"></a> |
 
 ## 数据说明
 
