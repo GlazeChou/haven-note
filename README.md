@@ -15,19 +15,19 @@ Haven Note 是一款本地优先的笔记应用。你可以直接编辑 `.hd` �
 
 ## 下载
 
-当前提供 **0.1.1-alpha.3 预发布测试版**。按设备架构选择安装包；以下链接均指向 GitHub Release 的实际制品。
+当前提供 **0.1.1-alpha.6 预发布测试版**。Android、macOS 和 Windows 安装包通过 Haven Note 官方服务分发，可直接从下表或[官网下载区](https://note.liuli88.com/#download)下载。
 
 | 平台 | 安装包 | 版本 | 下载 |
 | --- | --- | --- | --- |
-| macOS · Apple Silicon（M 系列） | 已签名并通过 Apple 公证的 arm64 DMG | 0.1.1-alpha.3 | [下载 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.3-local/Haven-Note-0.1.1-alpha.3-macOS-arm64-notarized.dmg) |
-| macOS · Intel | 已签名并通过 Apple 公证的 Intel DMG | 0.1.1-alpha.3 | [下载 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.3-local/Haven-Note-0.1.1-alpha.3-macOS-intel-notarized.dmg) |
-| Windows · x64 | 安装程序 EXE | 0.1.1-alpha.3 | [下载 EXE](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.3-local/Haven-Note-Local-0.1.1-alpha.3-Windows-x64-baidu-20261012.exe) |
-| Linux · ARM64 | Debian/Ubuntu DEB | 0.1.1-alpha.3 | [下载 DEB](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.3-local/Haven-Note-Local-0.1.1-alpha.3-Linux-arm64.deb) |
-| Android | 已签名的验收 APK（versionCode 8） | 0.1.1-alpha.3 | [下载 APK](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.3-local/Haven-Note_0.1.1-alpha.3_android-uat-code8-signed.apk) |
+| macOS · Apple Silicon（M 系列） | 已签名并通过 Apple 公证的 arm64 DMG | 0.1.1-alpha.6 | [下载 DMG](https://noteapi.liuli88.com/api/v1/public/releases/artifacts/1a8b8b8d-f798-4d20-a86a-4aaa88de0c55/content) |
+| macOS · Intel | 已签名、未公证的 Intel DMG | 0.1.1-alpha.6 | [下载 DMG](https://noteapi.liuli88.com/api/v1/public/releases/artifacts/8027a33d-4a45-4509-983f-67506eae894a/content) |
+| Windows · x64 | 未签名的安装程序 EXE | 0.1.1-alpha.6 | [下载 EXE](https://noteapi.liuli88.com/api/v1/public/releases/artifacts/48c62852-d76b-4d28-8697-6e42fb74ba7c/content) |
+| Android | 已签名的发布 APK（versionCode 12） | 0.1.1-alpha.6 | [下载 APK](https://noteapi.liuli88.com/api/v1/public/releases/artifacts/9c1c2fa1-b768-4336-aa71-dac4e2144245/content) |
+| Linux · ARM64 | Debian/Ubuntu DEB | 0.1.1-alpha.3 | [下载旧版 DEB](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.3-local/Haven-Note-Local-0.1.1-alpha.3-Linux-arm64.deb) |
 
-iOS 暂无可公开下载安装的制品。Linux x64 安装包也尚未发布。Android 包用于 UAT 验收；Windows 制品的构建源码版本尚未独立核实。所有 alpha 版本均处于测试阶段，升级前请备份重要数据。
+iOS 的 alpha.6 尚未公开发布。Linux x64 安装包也尚未发布；Linux ARM64 仍提供 alpha.3。macOS Intel 包未公证，安装时可能出现系统安全提示。Windows 包未签名，构建源码版本尚未独立核实；应用内自动更新仍保留原版本，alpha.6 请手动下载安装。所有 alpha 版本均处于测试阶段，升级前请备份重要数据。
 
-查看 [alpha.3 发布说明与制品](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.3-local)。历史版本：[alpha.2](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.2-local)、[alpha.1](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local)。Release 页面由 GitHub 自动生成的源码压缩包是源码快照，不是安装包。
+历史 GitHub Release：[alpha.3](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.3-local)、[alpha.2](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.2-local)、[alpha.1](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local)。GitHub 自动生成的源码压缩包是源码快照，不是安装包。
 
 ## 反馈与建议
 
