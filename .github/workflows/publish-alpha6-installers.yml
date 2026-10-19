@@ -1,0 +1,54 @@
+name: Publish alpha.6 installers to GitHub Releases
+
+on:
+  push:
+    paths:
+      - .github/workflows/publish-alpha6-installers.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.repository == 'GlazeChou/haven-note'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Download and verify published installers
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p installers
+          curl --fail --location --retry 4 --retry-all-errors --output installers/Haven-Note_0.1.1-alpha.6_Android.apk \
+            https://noteapi.liuli88.com/api/v1/public/releases/artifacts/9c1c2fa1-b768-4336-aa71-dac4e2144245/content
+          curl --fail --location --retry 4 --retry-all-errors --output installers/Haven-Note_0.1.1-alpha.6_macOS-arm64.dmg \
+            https://noteapi.liuli88.com/api/v1/public/releases/artifacts/1a8b8b8d-f798-4d20-a86a-4aaa88de0c55/content
+          curl --fail --location --retry 4 --retry-all-errors --output installers/Haven-Note_0.1.1-alpha.6_macOS-intel.dmg \
+            https://noteapi.liuli88.com/api/v1/public/releases/artifacts/8027a33d-4a45-4509-983f-67506eae894a/content
+          curl --fail --location --retry 4 --retry-all-errors --output installers/Haven-Note_0.1.1-alpha.6_Windows-x64-setup.exe \
+            https://noteapi.liuli88.com/api/v1/public/releases/artifacts/48c62852-d76b-4d28-8697-6e42fb74ba7c/content
+          sha256sum --check <<'SHA256'
+          78bddb1fadf924e531b738372a9b92974aec390f44975aa03693af10afbe46bc  installers/Haven-Note_0.1.1-alpha.6_Android.apk
+          4035242faf2077eeaeeb499c418d23d94501caee5949d4831e922e7b2c248cfd  installers/Haven-Note_0.1.1-alpha.6_macOS-arm64.dmg
+          ca2e0c4fac7ed4b3ed2381ed9dcb6318f5b37498320a9d0c26020e30bc979747  installers/Haven-Note_0.1.1-alpha.6_macOS-intel.dmg
+          a7c55f87cf2e77110c101fe4080931807b049a09263c9336ed3ec2ac20593faa  installers/Haven-Note_0.1.1-alpha.6_Windows-x64-setup.exe
+          SHA256
+
+      - name: Create prerelease with verified installers
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          tag=v0.1.1-alpha.6-local
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" installers/* --clobber
+          else
+            gh release create "$tag" installers/* \
+              --target "$GITHUB_SHA" \
+              --title 'Haven Note 0.1.1-alpha.6' \
+              --notes 'Android、macOS 和 Windows 预发布测试版。iOS 暂不发布。macOS Intel 包未公证；Windows 包未签名，需手动下载安装。安装包上传前已按本地归档清单校验 SHA-256。' \
+              --prerelease
+          fi
