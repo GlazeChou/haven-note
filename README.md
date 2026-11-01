@@ -104,11 +104,11 @@ iOS 的 alpha.6 尚未公开发布。Linux x64 安装包也尚未发布；Linux 
 
 ## 加入交流群
 
-点击二维码可查看大图。QQ 扫码加入“灵栖笔记交流群”；微信扫码添加好友时，请备注 **灵栖笔记**。
+点击二维码可查看大图。QQ 扫码加入“灵栖交流群”；添加微信好友时，请备注 **灵栖**。
 
 | QQ 群 | 微信好友 |
 | --- | --- |
-| 群号：**179664248**<br><a href="assets/community/qq-group-179664248-qr.png"><img src="assets/community/qq-group-179664248-qr.png" alt="QQ 群二维码" width="260"></a> | 添加微信好友请备注 **灵栖笔记**。<br><a href="assets/community/wechat-haven-note-friend-qr.png"><img src="assets/community/wechat-haven-note-friend-qr.png" alt="添加微信好友二维码" width="260"></a> |
+| 群号：**1134407602**<br><a href="assets/community/qq-group-1134407602-qr.png"><img src="assets/community/qq-group-1134407602-qr.png" alt="灵栖交流群 QQ 二维码" width="260"></a> | 添加微信好友请备注 **灵栖**。<br><a href="assets/community/wechat-lingqi-friend-qr.png"><img src="assets/community/wechat-lingqi-friend-qr.png" alt="灵栖微信好友二维码" width="260"></a> |
 
 ## 数据说明
 
