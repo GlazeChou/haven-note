@@ -78,23 +78,21 @@ flowchart LR
 
 桌面端还可以通过 **SSH / SFTP 连接远端目录**：浏览服务器文件，打开 UTF-8 文本进行编辑，再安全写回原位置。远端非文本文件、移动端 SSH 和个别本地预览格式有各自边界，详情以当前安装版本为准。
 
-> 功能随版本迭代；下方列出的是当前公开安装包。iOS 版本正在测试，尚未公开提供 alpha.6 安装包。
+> 功能随版本迭代；下方列出的是当前公开安装包。iOS 通过 TestFlight 分发。
 
 ## 下载
 
-当前提供 **0.1.1-alpha.6 预发布测试版**。Android、macOS 和 Windows 安装包可从下表的 GitHub Release 附件或[官网下载区](https://note.liuli88.com/#download)下载。
+当前提供 **0.1.1-alpha.7 预发布测试版**。安装包可从下表的 GitHub Release 附件下载。
 
-| 平台 | 安装包 | 版本 | 下载 |
-| --- | --- | --- | --- |
-| macOS · Apple Silicon（M 系列） | 已签名并通过 Apple 公证的 arm64 DMG | 0.1.1-alpha.6 | [下载 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.6-local/Haven-Note_0.1.1-alpha.6_macOS-arm64.dmg) |
-| macOS · Intel | 已签名、未公证的 Intel DMG | 0.1.1-alpha.6 | [下载 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.6-local/Haven-Note_0.1.1-alpha.6_macOS-intel.dmg) |
-| Windows · x64 | 未签名的安装程序 EXE | 0.1.1-alpha.6 | [下载 EXE](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.6-local/Haven-Note_0.1.1-alpha.6_Windows-x64-setup.exe) |
-| Android | 已签名的发布 APK（versionCode 12） | 0.1.1-alpha.6 | [下载 APK](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.6-local/Haven-Note_0.1.1-alpha.6_Android.apk) |
-| Linux · ARM64 | Debian/Ubuntu DEB | 0.1.1-alpha.3 | [下载旧版 DEB](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.3-local/Haven-Note-Local-0.1.1-alpha.3-Linux-arm64.deb) |
+| 平台 | 安装包 | 下载 |
+| --- | --- | --- |
+| macOS · Apple Silicon（M 系列） | 已签名、公证并装订票据的 arm64 DMG | [下载 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.7-local/Haven-Note_0.1.1-alpha.7_macOS-arm64.dmg) |
+| Windows · x64 | 未签名的安装程序 EXE | [下载 EXE](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.7-local/Haven-Note_0.1.1-alpha.7_Windows-x64-setup.exe) |
+| Android · ARM64 | APK（versionCode 13，沿用 Alpha 调试签名） | [下载 APK](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.7-local/Haven-alpha7-arm64.apk) |
 
-iOS 的 alpha.6 尚未公开发布。Linux x64 安装包也尚未发布；Linux ARM64 仍提供 alpha.3。macOS Intel 包未公证，安装时可能出现系统安全提示。Windows 包未签名，构建源码版本尚未独立核实；应用内自动更新仍保留原版本，alpha.6 请手动下载安装。所有 alpha 版本均处于测试阶段，升级前请备份重要数据。
+本版本没有经过公证的 macOS Intel 包；iOS build 18 通过 TestFlight 分发，不提供公开 IPA。Windows 包的构建源码提交尚未独立核实。所有 alpha 版本均处于测试阶段，升级前请备份重要数据。
 
-查看 [alpha.6 发布说明与制品](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.6-local)。历史版本：[alpha.3](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.3-local)、[alpha.2](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.2-local)、[alpha.1](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local)。GitHub 自动生成的源码压缩包是源码快照，不是安装包。
+查看 [alpha.7 发布说明与制品](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.7-local)。历史版本：[alpha.6](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.6-local)、[alpha.3](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.3-local)、[alpha.2](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.2-local)、[alpha.1](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local)。GitHub 自动生成的源码压缩包是源码快照，不是安装包。
 
 ## 反馈与建议
 
