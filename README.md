@@ -1,14 +1,26 @@
-# Haven Note
+# Haven Note（灵栖）
 
-**让每一个想法，都有安放之处。**
+**让每一份积累，都成为你的资产。**
 
 [官方网站](https://note.liuli88.com/)
 
 [产品介绍](docs/product/README.md) · [操作指南](docs/guides/README.md) · [技术披露](docs/technology/README.md)
 
-Haven Note 是一款**本地优先、跨平台、面向 AI 的文档与知识工作台**。它以自研的自然编辑器为核心，把笔记保存为你能直接管理的文件：既可以继续使用 Markdown，也可以选择原生的 **Haven Document（`.hd`）**，在一篇文档中组织文字、表格、媒体、图表和结构化组件。
+Haven Note（灵栖）是一款**本地优先的个人数字资产管理工具**，为重视数字自主、持续创作和长期积累的人而设计。它以自研的自然编辑器为核心，让你直接管理自己的文档：既可以继续使用 Markdown，也可以选择原生的 **Haven Document（`.hd`）**，在一篇文档中组织文字、表格、媒体、图表和结构化组件。
 
-**你的设备、你的仓库、你的数据。** 文档以本地文件为事实来源；需要在设备间流转时，可自行开启局域网同步并选择同步范围。日常笔记、知识库、便签、任务和密钥箱放在同一工作空间，而不要求先把文档托管到第三方云端。
+从灵感记录、写作绘图，到知识整理、AI 辅助操作和任务推进，Haven Note 帮你让内容持续发挥作用。它尤其适合经常处理文档、源码或创作素材的技术创作者与内容创作者。
+
+## 让积累真正为你所用
+
+- **内容主权｜你的内容，不再寄居于平台。** 直接打开的文档保存在本地原位置，文件格式和存放位置清晰可见；你可以用自己的方式管理、备份和迁移。
+- **自由形态创作｜一处起笔，让想法自由成形。** 在文档中组合文字、思维导图、流程图和白板，让不同想法找到合适的表达方式。
+- **跨端续写｜换一块屏幕，接着完成你的事。** 在支持的桌面和移动版本中继续处理笔记，以及 TXT、源码等文本文档；可按需开启局域网同步。
+- **行动智能｜让 AI 从“给建议”，走向“帮你做”。** 通过受控的文档操作接口，让 AI 查询、创建和修改受支持的内容，再由你检查结果。
+- **知识复利｜让每一次记录，成为下一次创造的起点。** 用知识库、搜索和笔记关联找回已有积累，并在配置相应能力后用于 AI 工作流。
+
+便签帮你把重要的事留在眼前；任务管理让你**少一点内耗，多一点完成**；密钥箱是**数字身份的归处**；账本支持导入支付宝、微信账单，做到**轻记账，深洞察**。查看[笔记与知识资产卖点](docs/product/笔记与知识资产宣传卖点.md)及[日常资产卖点](docs/product/日常资产宣传卖点.md)。
+
+**你的设备、你的仓库、你的数据。** 直接打开的文档以本地文件为事实来源；需要在设备间流转时，可自行开启局域网同步并选择同步范围。其他应用数据有各自的存储方式，详见下文。
 
 ## 为什么是 `.hd`：为人编辑，也为 AI 理解
 
@@ -84,15 +96,27 @@ flowchart LR
 
 ## 下载
 
-当前提供 **0.1.1-alpha.7 预发布测试版**。安装包可从下表的 GitHub Release 附件下载。
+当前提供 **0.1.1-alpha.7 预发布测试版**。[官网](https://note.liuli88.com/#download)会按发布渠道展示对应平台的最新可用下载入口。
+
+### 桌面端
 
 | 平台 | 安装包 | 下载 |
 | --- | --- | --- |
 | macOS · Apple Silicon（M 系列） | 已签名、公证并装订票据的 arm64 DMG | [下载 DMG](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.7-local/Haven-Note_0.1.1-alpha.7_macOS-arm64.dmg) |
+| macOS · Intel | 已签名、公证并装订票据的 x64 DMG | [从官网下载 DMG](https://noteapi.liuli88.com/api/v1/public/releases/artifacts/f23e6b51-41dd-4c8f-b232-2e1aca1faa92/content) |
 | Windows · x64 | 未签名的安装程序 EXE | [下载 EXE](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.7-local/Haven-Note_0.1.1-alpha.7_Windows-x64-setup.exe) |
-| Android · ARM64 | APK（versionCode 13，沿用 Alpha 调试签名） | [下载 APK](https://github.com/GlazeChou/haven-note/releases/download/v0.1.1-alpha.7-local/Haven-alpha7-arm64.apk) |
+| Linux · ARM64 | 以官网已发布版本为准 | [查看官网下载区](https://note.liuli88.com/#download) |
 
-本版本没有经过公证的 macOS Intel 包；iOS build 18 通过 TestFlight 分发，不提供公开 IPA。Windows 包的构建源码提交尚未独立核实。所有 alpha 版本均处于测试阶段，升级前请备份重要数据。
+### 移动端
+
+用手机扫描二维码，或打开对应链接：
+
+| 平台 | 下载方式 | 扫码下载 |
+| --- | --- | --- |
+| Android · ARM64 | [从官网下载 APK](https://noteapi.liuli88.com/api/v1/public/releases/artifacts/d1b1d4f3-52f1-4579-9585-a8115aa13804/content)（versionCode 13，沿用 Alpha 调试签名） | <a href="https://noteapi.liuli88.com/api/v1/public/releases/artifacts/d1b1d4f3-52f1-4579-9585-a8115aa13804/content"><img src="assets/downloads/android-alpha7-qr.png" alt="灵栖 Android alpha.7 APK 下载二维码" width="160"></a> |
+| iOS · iPhone / iPad | [通过 Apple TestFlight 安装](https://testflight.apple.com/join/8fzXa7f9)（build 18） | <a href="https://testflight.apple.com/join/8fzXa7f9"><img src="assets/downloads/ios-testflight-alpha7-qr.png" alt="灵栖 iOS alpha.7 TestFlight 邀请二维码" width="160"></a> |
+
+移动端二维码按官网 alpha.7 下载入口生成，随版本更新需重新核对。iOS 不提供公开 IPA；Windows 包的构建源码提交尚未独立核实。所有 alpha 版本均处于测试阶段，升级前请备份重要数据。
 
 查看 [alpha.7 发布说明与制品](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.7-local)。历史版本：[alpha.6](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.6-local)、[alpha.3](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.3-local)、[alpha.2](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.2-local)、[alpha.1](https://github.com/GlazeChou/haven-note/releases/tag/v0.1.1-alpha.1-local)。GitHub 自动生成的源码压缩包是源码快照，不是安装包。
 
