@@ -4,14 +4,17 @@
 <p align="center">在自己的设备上创作、整理、使用知识，也让重要的日常各有归处。</p>
 <p align="center"><a href="#下载">下载体验</a> · <a href="https://note.liuli88.com/">官方网站</a> · <a href="docs/guides/README.md">上手指南</a> · <a href="https://github.com/GlazeChou/haven-note/issues">反馈建议</a></p>
 
-<p align="center"><img src="assets/product/feature-notes.png" alt="灵栖笔记编辑器与文件仓库界面示意" width="960"></p>
-<p align="center"><sub>笔记编辑界面示意图。具体功能与平台支持以所下载版本为准。</sub></p>
-
 Haven Note 是一款**本地优先的个人数字资产管理工具**，为重视数字自主、持续创作和长期积累的人而设计。它适合经常处理文档、源码和创作素材的技术创作者与内容创作者，也能安放你的便签、计划、密码和账本。
 
 ## 从灵感到成果，在一个空间完成
 
-> 随手记录 → 写作与绘图 → 收入知识库 → 找回并使用 → 推动下一步行动
+```mermaid
+flowchart LR
+    A[随手记录<br/>便签 · 文档] --> B[自由创作<br/>文字 · 图形 · 白板]
+    B --> C[整理积累<br/>知识库 · 关联]
+    C --> D[再次使用<br/>检索 · AI]
+    D --> E[推动行动<br/>任务 · 导出 · 发布]
+```
 
 - **内容主权｜你的内容，不再寄居于平台。** 直接打开的文档保存在本地原位置；格式和存放位置清晰可见，方便用自己的方式管理、备份和迁移。
 - **自由形态创作｜一处起笔，让想法自由成形。** 在一篇文档里组合文字、表格、思维导图、流程图和白板。
@@ -38,9 +41,6 @@ Haven Note 是一款**本地优先的个人数字资产管理工具**，为重�
 | **把密码收好，把记忆还给自己。** 集中管理账号、密码和密钥。 | **不用天天记，也能月月心中有数。** 导入支付宝、微信账单，回看收支与预算。 |
 
 查看[日常资产卖点](docs/product/日常资产宣传卖点.md)。
-
-<p align="center"><img src="assets/product/feature-knowledge.png" alt="灵栖知识库界面示意" width="455"> <img src="assets/product/feature-tasks.png" alt="灵栖任务看板界面示意" width="455"></p>
-<p align="center"><sub>知识库与任务界面示意图。</sub></p>
 
 ## 下载
 
@@ -135,6 +135,20 @@ flowchart LR
 ## 也是一个能工作的文件空间
 
 除笔记外，Haven Note 还提供便签、任务看板、账本与账单导入。仓库浏览器可以预览图片、PDF、Office 文档和电子书等文件；文本入口可编辑 `.txt`、JSON、HTML、CSS、JavaScript、TypeScript、Python、Rust、Shell 等常见源码和配置文件，并提供语法高亮、适用格式的整理以及多行文本操作。
+
+### 笔记仓库可处理的文本格式
+
+| 类型 | 文件格式与常见文件名 | 打开方式 |
+| --- | --- | --- |
+| 笔记与纯文本 | `.hd`、`.md`、`.markdown`、`.txt` | `.hd` 和 Markdown 进入文档编辑器；`.txt` 使用纯文本编辑。 |
+| 网页与前端 | `.html`、`.htm`、`.css`、`.scss`、`.sass`、`.less`、`.js`、`.jsx`、`.mjs`、`.cjs`、`.ts`、`.tsx`、`.mts`、`.cts`、`.vue`、`.svelte` | 源码编辑；HTML 还可预览。 |
+| 编程语言 | `.py`、`.pyw`、`.pyi`、`.java`、`.rs`、`.go`、`.c`、`.h`、`.cc`、`.cpp`、`.cxx`、`.hh`、`.hpp`、`.hxx`、`.rb`、`.rake`、`.pl`、`.pm`、`.php`、`.phtml`、`.lua`、`.awk`、`.sql` | 源码编辑。 |
+| 脚本与命令 | `.sh`、`.bash`、`.zsh`、`.ksh`、`.ps1`、`.psm1`、`.psd1`、`.bat`、`.cmd`、`.vbs`、`.wsf` | 文本或源码编辑。 |
+| 数据与配置 | `.json`、`.yaml`、`.yml`、`.xml`、`.toml`、`.ini`、`.properties`、`.cfg`、`.conf`、`.nginx`、`.service`、`.timer` 等 systemd 文件 | 文本或结构化编辑；部分格式有语法高亮与格式整理。 |
+| 工程文件 | `Dockerfile`、`Containerfile`、`Makefile`、`GNUmakefile`、`CMakeLists.txt`、`.dockerfile`、`.mk`、`.make`、`.cmake`、`.diff`、`.patch` | 源码编辑。 |
+| 日志与常见点文件 | `.log`、`.env`、`.gitignore`、`.editorconfig`、`.gitconfig`、`.npmrc`、`.bashrc`、`.zshrc`、`.vimrc`、`.ssh/config` 等 | 按对应文本格式打开；高亮和格式整理能力因文件而异。 |
+
+`.csv` 在仓库中以表格方式预览，桌面端可切换到文本编辑。其他未列出的本地文件不一定有专门的编辑入口；SSH 远程入口可尝试打开更多 UTF-8 文本。具体支持范围与平台差异以安装版本为准。
 
 桌面端还可以通过 **SSH / SFTP 连接远端目录**：浏览服务器文件，打开 UTF-8 文本进行编辑，再安全写回原位置。远端非文本文件、移动端 SSH 和个别本地预览格式有各自边界，详情以当前安装版本为准。
 
